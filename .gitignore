@@ -1,0 +1,24 @@
+# Python
+__pycache__/
+*.pyc
+*.pyo
+.venv/
+.env
+.ipynb_checkpoints/
+
+# Ultralytics / runs / datasets
+runs/
+datasets/
+data/
+**/*.cache
+*.pt
+*.pth
+
+# OS / editors
+.DS_Store
+.vscode/
+.idea/
+
+# Videos bigger than a few MB (unless using LFS)
+*.mp4
+*.avi

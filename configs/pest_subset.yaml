@@ -1,0 +1,19 @@
+path: data/pest_subset
+train: images/train
+val: images/val
+nc: 14
+names:
+  - aphids
+  - red spider
+  - longlegged spider mite
+  - Cicadellidae
+  - Trialeurodes vaporariorum
+  - Thrips
+  - army worm
+  - corn borer
+  - blister beetle
+  - mole cricket
+  - wireworm
+  - peach borer
+  - rice leafhopper
+  - flea beetle

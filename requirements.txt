@@ -1,0 +1,7 @@
+ultralytics==8.3.181
+opencv-python        # or opencv-python-headless on servers
+matplotlib
+numpy
+torch==2.5.1
+torchvision==0.20.1
+torchaudio==2.5.1
