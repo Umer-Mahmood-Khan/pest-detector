@@ -59,7 +59,7 @@ yolo task=detect mode=train \
   epochs=50 imgsz=832 batch=8 device=0 workers=8 cache=ram patience=20
 ```
 ##✅ Validate & Visualize
-# validation with TTA
+
 ```bash
 yolo task=detect mode=val \
   model=runs/detect/train/weights/best.pt \
@@ -107,11 +107,6 @@ yolo task=detect mode=predict \
 
 <p float="left"> <img src="assets/detections/IP102004804.jpg" width="32%"/> <img src="assets/detections/IP102004997.jpg" width="32%"/> <img src="assets/detections/IP102005281.jpg" width="32%"/> </p>
 
-## 📌 Notes
-
-- We intentionally don’t commit datasets or large weights.
-
-- If you need weights, export and share via Drive/Release.
 
 ## 📝 License
 
@@ -130,4 +125,5 @@ git branch -M main
 git remote add origin git@github.com:<your-username>/pest-detector.git   # or https://...
 git push -u origin main
 ```
+
 
