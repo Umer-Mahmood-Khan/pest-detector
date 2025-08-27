@@ -31,9 +31,6 @@ pip install -r requirements.txt
 
 ## 📚 Data
 
-We train on a subset of IP102 converted to YOLO format.
-We do not commit data to the repo.
-
 To build the subset locally:
 ```bash
 python src/make_subset.py \
@@ -125,5 +122,6 @@ git branch -M main
 git remote add origin git@github.com:<your-username>/pest-detector.git   # or https://...
 git push -u origin main
 ```
+
 
 
